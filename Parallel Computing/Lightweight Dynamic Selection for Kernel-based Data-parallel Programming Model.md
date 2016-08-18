@@ -14,7 +14,7 @@ Emerging devices are aimed to increasing performance and reducing power simultan
 
 Popular approaches for optimizing including compiler and runtime solutions. 
 
-We could apply a model-based approach at compile time and run time.
+We could apply a *model-based* approach at compile time and run time.
 
 *Compile time optimzation* cannot consider all factors that influence the performance of algorithms, without knowing runtime variables such as data shape.
 
@@ -28,7 +28,7 @@ The model-based approach still have some blind spot. **DySel** remove the burden
 
 **Productive Profiling**
 
-In *Fully Productive Profiling*, each kernel contributes to part of the output. In *Hybrid-based Partial Productive Profiling*, only $$i_th$$ kernel contributes to the $$i_th$$ output; the best kernel is reponsible for remain outputs. Whereas according to the *Swaped-based Partial Productive Profiling*, the best kernel contributes to all the outputs.
+In *Fully Productive Profiling*, each kernel contributes to part of the output. In *Hybrid-based Partial Productive Profiling*, only i_th kernel contributes to the i_th output; the best kernel is reponsible for remain outputs. Whereas according to the *Swaped-based Partial Productive Profiling*, the best kernel contributes to all the outputs.
 
 **Workflow**
 
