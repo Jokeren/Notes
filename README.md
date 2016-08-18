@@ -9,7 +9,6 @@ Have fun reading papers
   - Queues
   - Hashtables
   - Linkedlists
-
 2. Memory Managment
 3. Snapshot
 4. Verification
