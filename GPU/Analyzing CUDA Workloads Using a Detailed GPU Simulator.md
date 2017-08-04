@@ -1,14 +1,14 @@
-##Source
+## Source
 
 ISPASS'09
 
 http://ieeexplore.ieee.org/document/4919648
 
-##Problem
+## Problem
 
 GPUs offer order of magnituide computing power more than contemporary CPUs. Thus, understanding GPUs characteristics is vital for improving the performance of parallel applications. This paper run sample applications on a GPU simulator, describing the impact of micro-architectural deisgns.
 
-##Solution
+## Solution
 
 Draw various kinds of figures, such as instruction classification, IPC, occupancy, and speedup to derive performance bottlenecks.
 

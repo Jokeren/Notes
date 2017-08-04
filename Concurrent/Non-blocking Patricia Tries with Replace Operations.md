@@ -1,22 +1,23 @@
-#Non-blocking Patricia Tries with Replace Operations
+# Non-blocking Patricia Tries with Replace Operations
 
-##Source
-ICDCS '13 Proceedings of the 2013 IEEE 33rd International Conference on Distributed Computing Systems
+## Source
+
+ICDCS'13 Proceedings of the 2013 IEEE 33rd International Conference on Distributed Computing Systems
 
 http://dl.acm.org/citation.cfm?id=2549695.2549733&coll=DL&dl=GUIDE&CFID=558601920&CFTOKEN=46023158
 
-##Problem
+## Problem
 
 Non-blocking Patricia Tries is widely used in practice, thus allowing it support concurrent access is very essential.
 
-##Motivation
+## Motivation
 
 1. Patricia trie is a simple unbalanced tree.
 2. Though the Patricia trie unbalanced, its height is bounded without balancing.
 3. The implementation renders good performance under both uniform and non-uniform environment.
 4. The `replace` operation is very interesting, which modifies two parts of the trie in a single operation.
 
-##Solution
+## Solution
 
 This work extends the original solution discussed in Ellen's paper(see 2010 PODC, nonblocking BST, we would revisit its proof in the future). Further, it transform the update scheme in a more uniform way to make it more applicable.
 
@@ -36,7 +37,7 @@ First locate the delete node and insert target. Then it flags the nodes involved
 
 find the target node, check whether it is deleted.
 
-##My Questions&Notes
+## My Questions&Notes
 
 1. Actually we could use quadtree to retrieve nodes more efficiently
 2. edge-oriented multi-way tree

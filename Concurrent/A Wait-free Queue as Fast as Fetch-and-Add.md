@@ -1,19 +1,20 @@
-#A Wait-free Queue as Fast as Fetch-and-Add
+# A Wait-free Queue as Fast as Fetch-and-Add
 
-##Source
+## Source
 
 PPoPP'16 Proceedings of the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
 
 http://dl.acm.org/citation.cfm?id=2851168
 
-##Problem
+## Problem
+
 The fast-path-slow-path methodology, that transform lock-free data structures to wait-free, is only available for a series of CASes. However, under heavy contention, most CASes will fails, and we dub this *the CAS retry problem*.
 
-##Motivation
+## Motivation
 
 Concurrent structures that use FAA instead of CAS are more practical.
 
-##Solution
+## Solution
 
 **Fast-Path-Slow-Path**
 
@@ -31,8 +32,7 @@ The "fast-path" first tries to enqueue the pending value. Next, it dequeues the 
 
 The "slow-path" dequeue begins by finding a candidate cell that needs to be popped and helps that cell's enqueue request. In the end, it also tries to CAS the cell's dequeue request, returning EMPTY or the value in the cell.
 
-
-##My Questions&Notes
+## My Questions&Notes
 
 1. A queue could be enmulated as an infinite array, where we allocate a segment each time, consisting of *N* cells.
 

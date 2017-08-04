@@ -1,13 +1,14 @@
-#Efficient Synchronization Primitives for GPUs
+# Efficient Synchronization Primitives for GPUs
 
-##Source
+## Source
 
 http://arxiv.org/abs/1110.4623v1
 
-##Problem
+## Problem
 Previous GPU primitives are insufficient to handle the discrepancies between GPU and CPU hardware.
 
-##Solution
+## Solution
+
 From the benchmark, there are three important characteristics for the design of primitives:
 
 1. Atomic:Volatile memory access performance ratio.
@@ -18,9 +19,9 @@ From the benchmark, there are three important characteristics for the design of 
 
 Due to these principles, the implementations of different primitives should be various on architecture. We have to provide a high-level api that hide the nuance.
 
-##Experiments
+## Experiments
 
 The experiments saturated the computing resources by lauch hardware limited blocks and utlize all the threads. It performs 1000 instances of an operation to measure the performance.
 
-##My Questions&Notes
+## My Questions&Notes
 1. Practical application

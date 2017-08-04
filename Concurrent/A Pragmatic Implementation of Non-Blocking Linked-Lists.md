@@ -1,19 +1,19 @@
-#A Pragmatic Implementation of Non-blocking Linked-Lists
+# A Pragmatic Implementation of Non-blocking Linked-Lists
 
-##Source
+## Source
 15th International Conference, DISC 2001 Lisbon, Portugal, October 3¨C5, 2001 Proceedings
 
 http://link.springer.com/book/10.1007/3-540-45414-4?no-access=true#page=310
 
-##Problem
+## Problem
 
 Present a non-blocking implementation of concurrent linked-list, which supports linearizable insert and delete operations.
 
-##Motivation
+## Motivation
 
 Using atomic instructions, it is convenient to eschew locks, and build scalable fundamental components for large distributed systems.
 
-##Solution
+## Solution
 
 The running example suggest that the insert operation could be finished by a single CAS, while the delete operation itself could not realize extra nodes inserted.
 
@@ -38,7 +38,7 @@ The search algorithm ensures *invariants* proposed in section 4.
 2. Both *prev* node and *next* node are unmarked.
 3. Key order constraints.
 
-##My Questions&Notes
+## My Questions&Notes
 
 1. Change the linearization point. Just as which described by Faith Ellen in Non-blocking BST, we might change the linearization point to the *physical deletion* point. 
 

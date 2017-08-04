@@ -1,18 +1,18 @@
-#Implementing Strassen's Algorithm with BLIS
+# Implementing Strassen's Algorithm with BLIS
 
-##Source
+## Source
 
 https://arxiv.org/abs/1605.01078
 
-##Problem
+## Problem
 
 Theoretically, Strassen's algorithm provides lower complexity compared with naive implementations. However, on current structures, two problems hinder its efficiency on small matrices. The first problem is that it induces additional data movement. A secondary concern has been that extra workspace are required.
 
-##Motivation
+## Motivation
 
 We could adopt the BLIS framwork to develop faster Strassen's algorithm by changing data movement between different cache layers.
 
-##Solution
+## Solution
 
 **One-level Strassen**
 
@@ -22,6 +22,6 @@ Figure 1 illustrates that *V + W* and *X + Y* are fused during the packing stage
 
 Since two level Strassen is similar to the one-level solution, we do not review its implementation here.
 
-##My Questions&Notes
+## My Questions&Notes
 
 This paper is published in SC'16.

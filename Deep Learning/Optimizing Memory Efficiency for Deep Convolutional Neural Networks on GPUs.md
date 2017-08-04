@@ -1,21 +1,21 @@
-#Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs
+# Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs
 
-##Source
+## Source
 
 International Conference on High Performance Computing, Networking, Storage, and Analysis (SC’16), 2016
 
 http://hgpu.org/?p=16486
 
-##Problem
+## Problem
 
 Due to the intricuate data layout of CNNs, memory efficiency has a large impact on the performance of pooling layer and convolution layer.
 
-##Motivation
+## Motivation
 GPU performance depends on particular data layout, as it uses thread grid and block to instantiate a kernel call. For convolution networks, there are 24 ways of day layout. A single data layout achieves suboptimal performance in a CNN, for different layers prefer different layouts. 
 
 Further, previous works also overlook off-chip memory accesses. For instance, In the softmax layer, calling multiple kernels might incur redundant memory accesses.
 
-##Solution
+## Solution
 
 1. Data layout
 
@@ -33,7 +33,7 @@ Poor memory bandwidth usage is caused by *NCHW* layout's strided memory accesses
 
 First, in Caffe, the softmax layer is computed by different kernels. Second, the parallelism is not enough to hide the loading latency. Therefore, we could fuse all kernels together and increase the parallelism by injecting threads to calculate each element.
 
-##My Questions&Notes
+## My Questions&Notes
 
 1. Typos
 

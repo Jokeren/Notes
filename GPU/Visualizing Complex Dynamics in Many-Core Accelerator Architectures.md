@@ -1,18 +1,18 @@
-##Source
+## Source
 
 ISPASS'10
 
 http://ieeexplore.ieee.org/document/5452029/
 
-##Problem
+## Problem
 
 GPUs involve massive parallelism at runtime that produces complex dynamic bahaviors. Using performance counter to quantify a entire program might be too general. Consequently, programmers should spend a large amount of effort in finding outstanding metrics related with programs and architectures. 
 
-##Motivation
+## Motivation
 
 The need of performance visualization has long been addressed, while there is no open source software that serves to visualize dynamic behavior of CUDA and attribute performance statics to lines of codes.
 
-##Solution
+## Solution
 
 1. Interconnect starvation
 

@@ -1,16 +1,16 @@
-#iBFS: Concurrent Breadth-First Search on GPUs
+# iBFS: Concurrent Breadth-First Search on GPUs
 
-##Source
+## Source
 
 Proceeding SIGMOD '16 Proceedings of the 2016 International Conference on Management of Data Pages 403-416.
 
 http://dl.acm.org/citation.cfm?id=2882959
 
-##Problem
+## Problem
 
 GPU performance suffers to running multiple BFS instance. But we could leverage frontier sharing properties and bit operations to optimize iBFS algorithms.
 
-##Motivation
+## Motivation
 
 1. Multiple BFS instances might share same frontiers so that we only need to load them from global memory once. 
 
@@ -18,7 +18,7 @@ GPU performance suffers to running multiple BFS instance. But we could leverage 
 
 3. iBFS's frontiers will become large as grouping multiple instances; thus, we need to reduce memory consumption for frontier queues.
 
-##Solution
+## Solution
 
 1. In the expansion phase, the joint status array stores status for every BFS instances. It applies a warp vote to communicate within a thread warp, deciding whether to push the vertex into the queue or not. In the inspection phase, it creates a cache to store neighborhoods. In this way, instances that ordered by its thread id could access global memory to check status in a coalesced way.
 
@@ -26,6 +26,6 @@ GPU performance suffers to running multiple BFS instance. But we could leverage 
 
 3. We use bit-wise status array to lower the memory consumption. Also, we perform bit-wise operations for inspection, termination, and frontier identification, which futher acclerates the procedure.
 
-##Question
+## Question
 
 1. Depth information lost by using bit-wise status array.

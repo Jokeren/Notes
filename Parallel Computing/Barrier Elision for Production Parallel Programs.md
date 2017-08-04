@@ -1,19 +1,19 @@
-#Barrier Elision for Production Parallel Programs
+# Barrier Elision for Production Parallel Programs
 
-##Source
+## Source
 
 PPoPP'15 Proceedings of the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
 
 http://dl.acm.org/citation.cfm?id=2688502
 
-##Problem
+## Problem
 Large scale scentific applications are consisted of several runtime libraries and implemented by different languages. Further, scientific community is moving toward multi-physics and multi-scale so that the next generation of applications are developed by DSL. In such a situation, programmers often choose conservative synchronization patterns that lead to suboptimal performance. 
 
-##Motivation
+## Motivation
 
 We could detect redundant barriers by observing its context. A barrier may be *redundant* if there are no data dependence edges originating from before the barrier on one task and terminating after the barrier on another task.
 
-##Solution
+## Solution
 
 **Elision Rules**
 
@@ -28,6 +28,6 @@ It runs a set-up training period and then executes the speculation phase, in whi
 The offline elision method separates training from learning. It begins by learning some samples and extracts shortest-common-suffixes from them. After testing the elision patterns, it uses the derived rule to elide the real production.
 
 
-##My Questions&Notes
+## My Questions&Notes
 
 1. How to apply a similar method in my deep learning system.

@@ -1,15 +1,15 @@
-#One weird trick for parallelizing convolutional neural networks
+# One weird trick for parallelizing convolutional neural networks
 
-##Source
+## Source
 
 http://arxiv.org/abs/1404.5997
 
-##Problem
+## Problem
 
-##Motivation
+## Motivation
 
-##Solution
+## Solution
 
-##My Questions&Notes
+## My Questions&Notes
 
 

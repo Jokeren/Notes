@@ -1,20 +1,20 @@
-##Source
+## Source
 
 OSDI'14
 
 https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu
 
-##Problem
+## Problem
 
 Building a scalable, fault-tolerant, and user-friendly machine learning system.
 
-##Motivation
+## Motivation
 
 In industry area, the amount of training data is growing at a rapid speed, which give rise to huge number of parameters in complex models. Related systems, such as YahooLDA, Petuum are insufficient to meet the increasing growth of both data and model.  Likewise, for these general-purpose distributed system, like Mahout, MLI, both adopt iterative MapReduce framework, the inefficiency lies in their application oriented design and consistency models. Finally GraphLab relies on coarse-grained snapshot mechanism which impede its scalability.
 
 Piccolo is a previous parameter server framework, but it lacks machine learning specific optimizations: message compression, replication, consistency model.
 
-##Solution
+## Solution
 
 1. (key, value)-vectors:
 
@@ -44,7 +44,7 @@ Piccolo is a previous parameter server framework, but it lacks machine learning 
 	
 	Reduce bandwidth by aggregating (summing) from the workers first. The extra cost in postpone the sending process could be compensated the relaxed consistency model.
 
-##My Questions&Notes
+## My Questions&Notes
 
 The author proposed a highly scalable, easy-to-use and fault-tolerant distributed machine learning system. The major advantage of its efficiency is contributed by its relaxed consistency model.
 
