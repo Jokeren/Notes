@@ -1,41 +1,38 @@
-# Paper-Reading
-Have fun reading papers
+# Notes
 
-###Focus Areas
-**Concurrent**
+Have fun reading papers and books!
 
-1. Concurrent Data Structures
-  - Trees
-  - Queues
-  - Hashtables
-  - Linkedlists
-2. Memory Managment
-3. Snapshot
-4. Verification
-5. Concurrent Techniques in Databases
-6. Transactions
+## Concurrent
 
-**Parallel Algorithms**
+1. Read-Log-Update A Lightweight Synchronization Mechanism for Concurrent Programming
+2. A Pragmatic Implementation of Non-Blocking Linked-Lists
+3. A Wait-free Queue as Fast as Fetch-and-Add
+4. Non-blocking Patricia Tries with Replace Operations
 
-1. Heuristic Optimizations
-  - GEMM
-  - Convolution (Image Filtering)
-  - SPMV
+## Parallel Algorithms
 
-2. Compile Time Optimizations
-  - Parallelism
-  - Loop Tiling
-  - Vectorization
+1. A programming system for future proofing performance critical libraries
+2. BLIS A Framework for Rapidly Instantiating BLAS Functionality
+3. Barrier Elision for Production Parallel Programs
+4. Implementing Strassen's Algorithm with BLIS
+5. Lightweight Dynamic Selection for Kernel-based Data-parallel Programming Model
+6. The Big Data Challenges of Connectomics
 
-3. Running Time Optimizations
-  - Trace
-  - Profiling
-  
-4. Domain Specific Language
+## Deep Learning
+ 
+1. Deep Learning with Limited Numerical Precision
+2. One weird trick for parallelizing convolutional neural networks
+3. Overcoming Challenges in Fixed Point Training of Deep Convolutional Networks
+4. Scaling Distributed Machine Learning with the Parameter Server
+5. Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs
 
-**Deep Learning**
+## GPU
 
-1. Large Scaling Systems
-2. Applications
-
-
+1. Efficient Synchronization Primitives for GPUs
+2. Enterprise Breadth-First Graph Traversal on GPUs
+3. GPU Multisplit
+4. iBFS Concurrent Breadth-First Search on GPUs.
+5. Analyzing CUDA Workloads Using a Detailed GPU Simulator
+6. Demystifying GPU Microarchitecture through Microbenchmarking
+7. NVIDIA TESLA V100 GPU ARCHITECTURE
+8. Visualizing Complex Dynamics in Many-Core Accelerator Architectures
