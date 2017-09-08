@@ -1,14 +1,14 @@
-##Source
+## Source
 
 ISPASS'10
 
 http://ieeexplore.ieee.org/document/5452013/
 
-##Problem
+## Problem
 
 GPUs have a different architecture from traditional CPUs. For architecture and compiler developers, it is essential to fully understand detailed of modern GPU designs.
 
-##Solution
+## Solution
 
 1. Cache
 

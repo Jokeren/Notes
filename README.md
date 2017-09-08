@@ -36,3 +36,7 @@ Have fun reading papers and books!
 6. Demystifying GPU Microarchitecture through Microbenchmarking
 7. NVIDIA TESLA V100 GPU ARCHITECTURE
 8. Visualizing Complex Dynamics in Many-Core Accelerator Architectures
+
+## Machine Learning
+
+1. A Few Useful Things to Know about Machine Learning

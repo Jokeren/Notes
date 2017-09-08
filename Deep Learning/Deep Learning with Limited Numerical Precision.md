@@ -1,18 +1,18 @@
-##Source
+## Source
 
 ICML'15
 
 http://dl.acm.org/citation.cfm?id=3045303
 
-##Problem
+## Problem
 
 Leverage the redundant and noisy nature of deep neural networks to design low precision computation models and relax constraints on certain hardwares.
 
-##Motivation
+## Motivation
 
 Unlike traditional machine learning algorithms that require high precisions, deep neural networks are error resilient. Whereas hardwares are designed for high precisions, leading to unnecessary computations. By adopting fixed-point arithmethtics, we built low precision networks that are typically consume far less hardware resources and power than floating points.
 
-##Solution
+## Solution
 
 1. Fixed point representations
 
