@@ -11,7 +11,7 @@ Have fun reading papers and books!
 5. [ ] NUMASK: High Performance Scalable Skip List for NUMA
 6. [ ] BRAVO–Biased Locking for Reader-WriterLocks
 
-## Parallel Algorithms
+## Parallel Computing
 
 1. A programming system for future proofing performance critical libraries
 2. BLIS A Framework for Rapidly Instantiating BLAS Functionality
