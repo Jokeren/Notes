@@ -2,7 +2,7 @@
 
 Have fun reading papers and books!
 
-## Concurrent
+## Concurrency
 
 1. Read-Log-Update A Lightweight Synchronization Mechanism for Concurrent Programming
 2. A Pragmatic Implementation of Non-Blocking Linked-Lists
@@ -28,7 +28,7 @@ Have fun reading papers and books!
 4. Scaling Distributed Machine Learning with the Parameter Server
 5. Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs
 
-## GPU
+## GPUs
 
 1. Efficient Synchronization Primitives for GPUs
 2. Enterprise Breadth-First Graph Traversal on GPUs
@@ -38,6 +38,10 @@ Have fun reading papers and books!
 6. Demystifying GPU Microarchitecture through Microbenchmarking
 7. NVIDIA TESLA V100 GPU ARCHITECTURE
 8. Visualizing Complex Dynamics in Many-Core Accelerator Architectures
+
+## CPUs
+
+1. Simultaneous Multithreading Maximizing On-Chip Parallelism
 
 ## Machine Learning
 
