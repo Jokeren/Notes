@@ -42,6 +42,7 @@ Have fun reading papers and books!
 ## CPUs
 
 1. Simultaneous Multithreading Maximizing On-Chip Parallelism
+2. A Single-Chip Multiprocessor
 
 ## Machine Learning
 
