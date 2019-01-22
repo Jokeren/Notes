@@ -46,6 +46,7 @@ Have fun reading papers and books!
 3. Evaluating the Potential of Multithreaded Platforms for Irregular Scientific Computations
 4. Victim Replication: Maximizing Capacity while Hiding Wire Delay in Tiled Chip Multiprocessors
 5. The future of microprocessors
+6. Elastic cooperative caching: an autonomous dynamically adaptive memory hierarchy for chip multiprocessors
 
 ## Machine Learning
 
