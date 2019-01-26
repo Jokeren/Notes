@@ -47,6 +47,7 @@ Have fun reading papers and books!
 4. Victim Replication: Maximizing Capacity while Hiding Wire Delay in Tiled Chip Multiprocessors
 5. The future of microprocessors
 6. Elastic cooperative caching: an autonomous dynamically adaptive memory hierarchy for chip multiprocessors
+7. IBM POWER7 multicore server processor
 
 ## Machine Learning
 
