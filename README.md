@@ -48,6 +48,7 @@ Have fun reading papers and books!
 5. The future of microprocessors
 6. Elastic cooperative caching: an autonomous dynamically adaptive memory hierarchy for chip multiprocessors
 7. IBM POWER7 multicore server processor
+8. A Primer on Memory Consistency and Cache Coherence
 
 ## Machine Learning
 
