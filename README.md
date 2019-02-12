@@ -8,8 +8,9 @@ Have fun reading papers and books!
 2. A Pragmatic Implementation of Non-Blocking Linked-Lists
 3. A Wait-free Queue as Fast as Fetch-and-Add
 4. Non-blocking Patricia Tries with Replace Operations
-5. [ ] NUMASK: High Performance Scalable Skip List for NUMA
-6. [ ] BRAVO–Biased Locking for Reader-WriterLocks
+5. The Java Memory Model
+6. [ ] NUMASK: High Performance Scalable Skip List for NUMA
+7. [ ] BRAVO–Biased Locking for Reader-WriterLocks
 
 ## Parallel Computing
 
