@@ -9,8 +9,9 @@ Have fun reading papers and books!
 3. A Wait-free Queue as Fast as Fetch-and-Add
 4. Non-blocking Patricia Tries with Replace Operations
 5. The Java Memory Model
-6. [ ] NUMASK: High Performance Scalable Skip List for NUMA
-7. [ ] BRAVO–Biased Locking for Reader-WriterLocks
+6. Foundations of the C++ Concurrency Memory Model
+7. [ ] NUMASK: High Performance Scalable Skip List for NUMA
+8. [ ] BRAVO–Biased Locking for Reader-WriterLocks
 
 ## Parallel Computing
 
