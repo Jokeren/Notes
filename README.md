@@ -10,8 +10,9 @@ Have fun reading papers and books!
 4. Non-blocking Patricia Tries with Replace Operations
 5. The Java Memory Model
 6. Foundations of the C++ Concurrency Memory Model
-7. [ ] NUMASK: High Performance Scalable Skip List for NUMA
-8. [ ] BRAVO–Biased Locking for Reader-WriterLocks
+7. The Foundations for Scalable Multi-core Software in Intel® Threading Building Blocks
+8. [ ] NUMASK: High Performance Scalable Skip List for NUMA
+9. [ ] BRAVO–Biased Locking for Reader-WriterLocks
 
 ## Parallel Computing
 
