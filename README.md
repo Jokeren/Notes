@@ -11,8 +11,9 @@ Have fun reading papers and books!
 5. The Java Memory Model
 6. Foundations of the C++ Concurrency Memory Model
 7. The Foundations for Scalable Multi-core Software in Intel® Threading Building Blocks
-8. [ ] NUMASK: High Performance Scalable Skip List for NUMA
-9. [ ] BRAVO–Biased Locking for Reader-WriterLocks
+8. SALSA: Scalable and Low Synchronization NUMA-aware Algorithm for Producer-Consumer Pools
+9. [ ] NUMASK: High Performance Scalable Skip List for NUMA
+10. [ ] BRAVO–Biased Locking for Reader-WriterLocks
 
 ## Parallel Computing
 
