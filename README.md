@@ -23,6 +23,7 @@ Have fun reading papers and books!
 4. Implementing Strassen's Algorithm with BLIS
 5. Lightweight Dynamic Selection for Kernel-based Data-parallel Programming Model
 6. The Big Data Challenges of Connectomics
+7. Experimenting with Low-Overhead OpenMP Runtime on BG/Q
 
 ## Deep Learning
  
