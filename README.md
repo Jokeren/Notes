@@ -13,7 +13,8 @@ Have fun reading papers and books!
 7. The Foundations for Scalable Multi-core Software in Intel® Threading Building Blocks
 8. SALSA: Scalable and Low Synchronization NUMA-aware Algorithm for Producer-Consumer Pools
 9. [ ] NUMASK: High Performance Scalable Skip List for NUMA
-10. [ ] BRAVO–Biased Locking for Reader-WriterLocks
+10. BRAVO–Biased Locking for Reader-WriterLocks
+11. Eraser: A Dynamic Data Race Detector for Multithreaded Programs
 
 ## Parallel Computing
 
