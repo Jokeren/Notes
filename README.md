@@ -16,6 +16,7 @@ Have fun reading papers and books!
 10. BRAVO–Biased Locking for Reader-WriterLocks
 11. Eraser: A Dynamic Data Race Detector for Multithreaded Programs
 12. ThreadSanitizer – data race detection in practice
+13. Scheduling Multithreaded Computations by Work Stealing
 
 ## Parallel Computing
 
