@@ -17,6 +17,8 @@ Have fun reading papers and books!
 11. Eraser: A Dynamic Data Race Detector for Multithreaded Programs
 12. ThreadSanitizer – data race detection in practice
 13. Scheduling Multithreaded Computations by Work Stealing
+14. Wait-Free Synchronization
+15. CDSCHECKER Checking Concurrent Data Structures Written with CC++ Atomics
 
 ## Parallel Computing
 
