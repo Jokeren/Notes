@@ -19,6 +19,7 @@ Have fun reading papers and books!
 13. Scheduling Multithreaded Computations by Work Stealing
 14. Wait-Free Synchronization
 15. CDSCHECKER Checking Concurrent Data Structures Written with CC++ Atomics
+16. Algorithms for Scalable Synchronization on SharedMemory Multiprocessors
 
 ## Parallel Computing
 
