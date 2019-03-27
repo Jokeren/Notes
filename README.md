@@ -20,6 +20,7 @@ Have fun reading papers and books!
 14. Wait-Free Synchronization
 15. CDSCHECKER Checking Concurrent Data Structures Written with CC++ Atomics
 16. Algorithms for Scalable Synchronization on SharedMemory Multiprocessors
+17. Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask
 
 ## Parallel Computing
 
