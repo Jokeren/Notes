@@ -21,6 +21,7 @@ Have fun reading papers and books!
 15. CDSCHECKER Checking Concurrent Data Structures Written with CC++ Atomics
 16. Algorithms for Scalable Synchronization on SharedMemory Multiprocessors
 17. Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask
+18. Nonblocking Concurrent Data Structures with Condition Synchronization
 
 ## Parallel Computing
 
