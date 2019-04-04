@@ -22,6 +22,7 @@ Have fun reading papers and books!
 16. Algorithms for Scalable Synchronization on SharedMemory Multiprocessors
 17. Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask
 18. Nonblocking Concurrent Data Structures with Condition Synchronization
+19. Software Transactional Memory for Dynamic-sized Data Structures
 
 ## Parallel Computing
 
