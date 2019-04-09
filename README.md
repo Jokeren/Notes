@@ -23,6 +23,7 @@ Have fun reading papers and books!
 17. Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask
 18. Nonblocking Concurrent Data Structures with Condition Synchronization
 19. Software Transactional Memory for Dynamic-sized Data Structures
+20. Transactional Memory
 
 ## Parallel Computing
 
