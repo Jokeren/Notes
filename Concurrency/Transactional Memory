@@ -1,0 +1,18 @@
+Transactional Memory
+
+This paper proposes a high-level overview of transactional memory. It first shows the emerging trend of using transactional memory to overcome the difficulty of programming multi-core architectures. Because TM's programmability and composability, it will become the pillar for parallel programming. TM releases programmers' burden of handling concurrency coordination to TM runtime systems and can be implemented on both hardware and software level. A TM system records a read set at the start of a transaction and rollbacks if a value (memory address) in the set has been changed. We can have either a deferred-update system that copies object before validating or a direct-update system that validates in place and save memory. Also, a TM system can be either early detected or late detected. Early detection prevents a transaction from performing an unnecessary computation that a subsequent abort will discard. Late detection can avoid unnecessary aborts.
+
+TM handles mutual exclusion automatically so that programmers only need to identify fields that may be shared at the run time.
+
+Many TMs have obstruction-free progress guarantee so that a thread itself makes progress if it does not encounter other threads intervention.
+
+TM is composable.
+
+HTM could be implemented with low overhead. But since HTM relies on the cache, when cache overflows because of transactional states, it is hard to restore previous operating system states.
+
+Rollback I/O events in TM is hard.
+
+STM has significant overhead, comparing with lock-based implementations.
+
+
+I do not understand the figures in the papers, which are abstract and not related to the topic.
