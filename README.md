@@ -24,6 +24,7 @@ Have fun reading papers and books!
 18. Nonblocking Concurrent Data Structures with Condition Synchronization
 19. Software Transactional Memory for Dynamic-sized Data Structures
 20. Transactional Memory
+21. Transactional Data Structure Libraries
 
 ## Parallel Computing
 
