@@ -67,6 +67,7 @@ Have fun reading papers and books!
 7. IBM POWER7 multicore server processor
 8. A Primer on Memory Consistency and Cache Coherence
 9. IBM Blue Gene/Q memory subsystem with speculative execution and transactional memory
+10. Speculative Lock Elision: Enabling Highly Concurrent Multithreaded Execution
 
 ## Machine Learning
 
